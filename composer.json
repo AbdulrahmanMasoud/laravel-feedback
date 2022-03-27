@@ -1,0 +1,27 @@
+{
+    "name": "theamasoud/laravel-feedback",
+    "description": "Laravel Feedbacks",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Abdulrahman Masoud",
+        "email": "theamasoud@gmail.com"
+      }
+    ],
+    "autoload": {
+        "psr-4": {
+          "TheAMasoud\\LaravelFeedback\\": "src/"
+        }
+    },    
+    "require": {},
+    "require-dev": {},
+    "extra": {
+      "laravel": {
+        "providers": [
+          "TheAMasoud\\LaravelFeedback\\Providers\\FeedbackServiceProvider"
+        ]
+      }
+    }
+    
+  }
